@@ -10,7 +10,7 @@ export default function Home() {
     <main className="flex min-h-screen flex-col justify-start p-10 bg-slate-900  text-gray-300  ">
       <Header />
 
-      <section className="flex flex-col flex-1 justify-center items-center gap-4 md:flex-row  ">
+      <section className="flex flex-col flex-1 justify-center items-center gap-4 md:flex-row lg:max-w-6xl lg:m-auto  ">
         <span className="flex flex-col justify-start items-center h-full w-full gap-3 ">
           <h1 className="w-full font-bold uppercase text-sm">
             <span> Hello my name is Caio. I'm a </span>
