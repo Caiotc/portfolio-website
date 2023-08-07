@@ -40,9 +40,9 @@ export default async function Home() {
         <section className="my-10">
           <Divider title="projects" />
 
-          <section className="my-10 p-4 flex flex-col md:flex-row md:flex-wrap gap-4">
+          {/* <section className="my-10 p-4 flex flex-col md:flex-row md:flex-wrap gap-4">
             <Card name="portfolio website" keyWords="tailwind, nextJs, mdx" />
-          </section>
+          </section> */}
         </section>
 
         <section>
