@@ -12,7 +12,7 @@ const Links = [
 ];
 
 export const Header = () => {
-  const [isOpen, setIsOpen] = useState<boolean>(true);
+  const [isOpen, setIsOpen] = useState<boolean>(false);
 
   return (
     <nav
@@ -47,7 +47,7 @@ export const Header = () => {
       >
         {Links.map(({ name, link }, index, __self) => (
           <div
-            key={`#{index}-{name} `}
+            key={`${index}-${name} `}
             className="flex justify-start items-center"
           >
             <span className="font-bold text-emerald-400 text-2xl">#</span>
